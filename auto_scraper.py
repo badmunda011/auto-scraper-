@@ -7,7 +7,7 @@ from pymongo import MongoClient
 import base64
 
 # MongoDB configuration
-MONGO_URI = 'mongodb'
+MONGO_URI = 'mongodb' # your mongo db url
 client = MongoClient(MONGO_URI)
 db = client['mrdaxx_scrapper_db']
 cards_collection = db['cards']
